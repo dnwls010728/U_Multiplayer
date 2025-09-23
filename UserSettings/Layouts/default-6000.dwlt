@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 169
+  controlID: 145
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 170
+  controlID: 146
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 602
     width: 1424
     height: 691
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 134
+  controlID: 107
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1401,9 +1401,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 06010100
       m_LastClickedID: 0
-      m_ExpandedIDs: 8cddffff38dfffff42e0ffff8ae2ffff40e5ffffeae5ffffe6ebffff7cf2ffff08f3ffff4af7ffffc0faffffb8210100
+      m_ExpandedIDs: d2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1474,7 +1474,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1492,7 +1493,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c8a70000
     m_LastClickedID: 42952
-    m_ExpandedIDs: 0000000054c2000056c20000
+    m_ExpandedIDs: 00000000c6fc0000c8fc0000cafc0000ccfc0000cefc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1521,18 +1522,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000054c2000056c2000008c30000de1d0100c6200100
+    m_ExpandedIDs: ffffffff00000000c6fc0000c8fc0000cafc0000ccfc0000cefc0000e6000100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DA_Minimal_Setup
-      m_OriginalName: DA_Minimal_Setup
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 73182
+      m_UserData: 65766
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
