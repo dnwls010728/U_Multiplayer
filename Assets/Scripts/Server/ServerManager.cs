@@ -1,15 +1,21 @@
 using System;
+using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
+using Unity.Services.Lobbies;
+using Unity.Services.Lobbies.Models;
 using Unity.Services.Multiplayer;
 using UnityEngine;
 
 public class ServerManager : Singleton<ServerManager>
 {
     private ISession _session;
+    private Lobby _lobby;
     
     private string _ip = "127.0.0.1";
     private string _hostname = "";
@@ -20,9 +26,14 @@ public class ServerManager : Singleton<ServerManager>
     
     private int _maxPlayers = 4;
     
+    private CancellationTokenSource _cts;
+    
+    private readonly HashSet<ulong> _pending = new ();
+    private readonly Dictionary<ulong, Task> _timeouts = new ();
+    
     void Start()
     {
-        var args = System.Environment.GetCommandLineArgs();
+        var args = Environment.GetCommandLineArgs();
         for (var i = 0; i < args.Length; ++i)
         {
             if (args[i] == "-ip" && (i + 1 < args.Length))
@@ -45,6 +56,7 @@ public class ServerManager : Singleton<ServerManager>
         NetworkManager.Singleton.OnServerStarted += OnServerStarted;
         NetworkManager.Singleton.OnClientConnectedCallback += OnClientChanged;
         NetworkManager.Singleton.OnClientDisconnectCallback += OnClientChanged;
+        NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
 
         _ = BootAsync();
     }
@@ -80,49 +92,117 @@ public class ServerManager : Singleton<ServerManager>
     {
         try
         {
-            MultiplayerService.Instance.SessionAdded += OnSessionAdded;
-            _session = await MultiplayerService.Instance.CreateSessionAsync(new SessionOptions()
+            var options = new CreateLobbyOptions
             {
-                Name = _hostname,
-                MaxPlayers = _maxPlayers,
                 IsPrivate = false,
-                SessionProperties = new()
+                Data = new ()
                 {
-                    { "ip", new SessionProperty(_ip) },
-                    { "port", new SessionProperty(_port.ToString()) },
-                    { "description", new SessionProperty(_description) },
-                    { "region", new SessionProperty(_region) },
-                    { "build", new SessionProperty(Application.version) },
-                    { "players", new SessionProperty("0") }
+                    ["ip"] = new DataObject(DataObject.VisibilityOptions.Public, _ip),
+                    ["port"] = new DataObject(DataObject.VisibilityOptions.Public, _port.ToString()),
+                    ["description"] = new DataObject(DataObject.VisibilityOptions.Public, _description),
+                    ["region"] = new DataObject(DataObject.VisibilityOptions.Public, _region, DataObject.IndexOptions.S1),
+                    ["build"] = new DataObject(DataObject.VisibilityOptions.Public, Application.version, DataObject.IndexOptions.S2),
+                    ["players"] = new DataObject(DataObject.VisibilityOptions.Public, "0")
                 }
-            });
+            };
+            
+            _lobby = await LobbyService.Instance.CreateLobbyAsync(_hostname, _maxPlayers, options);
+            Debug.Log("Server is ready.");
+            
+            _cts = new CancellationTokenSource();
+            Heartbeat(_cts.Token).Forget();
         }
         catch (Exception e)
         {
             Debug.LogException(e);
         }
     }
-    
-    private void OnSessionAdded(ISession session)
+
+    private async UniTaskVoid Heartbeat(CancellationToken token)
     {
-        Debug.Log("Server is ready.");
-        _ = UpdatePlayersPropertyAsync();
+        while (!token.IsCancellationRequested)
+        {
+            try
+            {
+                await LobbyService.Instance.SendHeartbeatPingAsync(_lobby.Id);
+            }
+            catch (Exception e)
+            {
+                Debug.LogWarning($"Lobby Heartbeat failed: {e.Message}");
+            }
+            
+            await UniTask.Delay(TimeSpan.FromSeconds(15), cancellationToken: token);
+        }
     }
 
     private void OnClientChanged(ulong clientId)
     {
-        _ = UpdatePlayersPropertyAsync();
+        if (_pending.Remove(clientId))
+            _timeouts.Remove(clientId);
+        
+        _ = FlushPlayersAsync();
     }
 
-    private async Task UpdatePlayersPropertyAsync()
+    private async Task FlushPlayersAsync()
     {
-        if (_session is null) return;
-        
-        var current = NetworkManager.Singleton.ConnectedClientsIds.Count;
-        Debug.Log($"Updating players property: {current}");
+        try
+        {
+            var current = NetworkManager.Singleton.ConnectedClientsIds.Count;
+            var options = new UpdateLobbyOptions
+            {
+                Data = new ()
+                {
+                    ["players"] = new DataObject(DataObject.VisibilityOptions.Public, current.ToString())
+                }
+            };
+            
+            _lobby = await LobbyService.Instance.UpdateLobbyAsync(_lobby.Id, options);
+        }
+        catch (Exception e)
+        {
+            Debug.LogException(e);
+        }
+    }
 
-        var host = _session.AsHost();
-        host.SetProperty("players", new SessionProperty(current.ToString()));
-        await host.SavePropertiesAsync();
+    private void ApprovalCheck(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response)
+    {
+        var current = NetworkManager.Singleton.ConnectedClientsIds.Count;
+        var pending = _pending.Count;
+        
+        bool isFull = (current + pending) >= _maxPlayers;
+        if (isFull)
+        {
+            response.Approved = false;
+            response.Reason = "Server is full.";
+            return;
+        }
+        
+        if (!_pending.Add(request.ClientNetworkId))
+        {
+            response.Approved = false;
+            response.Reason = "Client is already pending.";
+            return;
+        }
+        
+        _timeouts[request.ClientNetworkId] = StartTimeout(request.ClientNetworkId, 5f);
+        
+        response.Approved = true;
+        response.Pending = false;
+    }
+
+    private async Task StartTimeout(ulong clientId, float seconds)
+    {
+        float end = Time.time + seconds;
+        while (Time.time < end)
+        {
+            if (!_pending.Contains(clientId)) return;
+            await Task.Yield();
+        }
+        
+        if (_pending.Remove(clientId))
+        {
+            _timeouts.Remove(clientId);
+            Debug.LogWarning($"Client {clientId} timed out.");
+        }
     }
 }

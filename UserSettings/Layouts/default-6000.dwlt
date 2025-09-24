@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 182
+  controlID: 86
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 183
+  controlID: 87
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 136
+  controlID: 134
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -299,8 +299,8 @@ MonoBehaviour:
     y: 0
     width: 515
     height: 569
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -351,8 +351,8 @@ MonoBehaviour:
     y: 0
     width: 621
     height: 1293
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -1261,7 +1261,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2392
+  m_LastSelectedObjectID: 72788
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1401,9 +1401,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a0170100
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 82caffffb6cbffffc6cfffffe2cfffffe8cffffff2cfffff00ddffff32deffff42e2ffff5ee2ffff64e2ffff6ee2ffff86ecffffb8edffffc8f1ffffe4f1ffffeaf1fffff4f1ffffd0f6ffff38f7ffffd2fafffff4ffffff
+      m_ExpandedIDs: 6e3dffffa03effff2442ffff4042ffff4642ffff5042ffff164affff484bffff584fffff744fffff7a4fffff844fffffa859ffffdc5affffec5effff085fffff0e5fffff185fffff1875ffff4c76ffff667affff8c7affff967affffa47affffa48dffffd88effffe892ffff0493ffff0a93ffff1493ffff7aa0ffffaca1ffffbca5ffffd8a5ffffdea5ffffe8a5ffff4acaffff7ccbffff8ccfffffa8cfffffaecfffffb8cfffff3cecffff70edffff80f1ffff9cf1ffffa2f1ffffacf1ffffc8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c8a70000
     m_LastClickedID: 42952
-    m_ExpandedIDs: 00000000c0000100c2000100c4000100c6000100c8000100ca000100cc000100ce000100d0000100d2000100d4000100d6000100d8000100da000100dc000100de000100e0000100e2000100e4000100e6000100e8000100
+    m_ExpandedIDs: 000000001c0001001e00010020000100220001002400010026000100280001002a0001002c0001002e00010030000100320001003400010036000100380001003a0001003c0001003e000100400001004200010044000100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1521,21 +1521,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 20}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c0000100c2000100c4000100c6000100c8000100ca000100cc000100ce000100d0000100d2000100d4000100d6000100d8000100da000100dc000100de000100e0000100e2000100e4000100e6000100e8000100
+    m_ExpandedIDs: ffffffff000000001c0001001e00010020000100220001002400010026000100280001002a0001002c0001002e00010030000100320001003400010036000100380001003a0001003c0001003e000100400001004200010044000100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: NetworkSingleton
-      m_OriginalName: NetworkSingleton
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 71584
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 13}

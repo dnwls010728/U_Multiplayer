@@ -7,6 +7,8 @@ using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
+using Unity.Services.Lobbies;
+using Unity.Services.Lobbies.Models;
 using Unity.Services.Multiplayer;
 using UnityEngine;
 
@@ -18,10 +20,14 @@ public class ClientManager : Singleton<ClientManager>
     private IList<GameObject> _serverItems = new List<GameObject>();
     private IList<ISessionInfo> _sessionInfos;
     
+    private IList<Lobby> _lobbies;
+    
     private CancellationTokenSource _cts;
     
     void Start()
     {
+        NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
+        
         _ = BootAsync();
     }
     
@@ -56,8 +62,23 @@ public class ClientManager : Singleton<ClientManager>
     }
     private async Task UpdateSessions()
     {
-        var results = await MultiplayerService.Instance.QuerySessionsAsync(new QuerySessionsOptions());
-        _sessionInfos = results.Sessions;
+        var options = new QueryLobbiesOptions
+        {
+            Count = 25,
+            Filters = new ()
+            {
+                new (QueryFilter.FieldOptions.AvailableSlots, "0", QueryFilter.OpOptions.GT),
+                new (QueryFilter.FieldOptions.S2, Application.version, QueryFilter.OpOptions.EQ),
+                new (QueryFilter.FieldOptions.S1, "kr", QueryFilter.OpOptions.EQ)
+            },
+            Order = new ()
+            {
+                new (false, QueryOrder.FieldOptions.Created)
+            }
+        };
+
+        var results = await LobbyService.Instance.QueryLobbiesAsync(options);
+        _lobbies = results.Results;
     }
 
     private async void RefreshServerList()
@@ -71,14 +92,14 @@ public class ClientManager : Singleton<ClientManager>
                 Destroy(serverItem);
             }
 
-            if (_sessionInfos is null) return;
+            if (_lobbies is null) return;
 
-            foreach (var sessionInfo in _sessionInfos)
+            foreach (var lobby in _lobbies)
             {
                 var itemPrefab = Instantiate(_serverItemPrefab, _contentParent.transform);
                 if (itemPrefab.TryGetComponent<ServerItem>(out var serverItem))
                 {
-                    serverItem.SetSession(sessionInfo);
+                    serverItem.SetSession(lobby);
                     serverItem.AddSelectListener(OnSelectServer);
                 }
                 
@@ -91,10 +112,10 @@ public class ClientManager : Singleton<ClientManager>
         }
     }
 
-    private void OnSelectServer(ISessionInfo sessionInfo)
+    private void OnSelectServer(Lobby lobby)
     {
-        string ip = sessionInfo.Properties["ip"].Value;
-        ushort port = ushort.Parse(sessionInfo.Properties["port"].Value);
+        string ip = lobby.Data["ip"].Value;
+        ushort port = ushort.Parse(lobby.Data["port"].Value);
         
         Debug.Log($"{ip}:{port}");
         
@@ -112,5 +133,16 @@ public class ClientManager : Singleton<ClientManager>
             await UniTask.Delay(TimeSpan.FromSeconds(3), cancellationToken: token);
             RefreshServerList();
         }
+    }
+
+    private void OnClientDisconnected(ulong clientId)
+    {
+        if (clientId != NetworkManager.Singleton.LocalClientId) return;
+        
+        var reason = NetworkManager.Singleton.DisconnectReason;
+        if (string.IsNullOrEmpty(reason))
+            reason = "Disconnected by host.";
+        
+        Debug.Log($"Disconnected from server. Reason: {reason}");
     }
 }
