@@ -24,42 +24,29 @@ public class ClientManager : Singleton<ClientManager>
     
     private CancellationTokenSource _cts;
     
-    void Start()
+    private async void Start()
     {
         NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
         
-        _ = BootAsync();
-    }
-    
-    private async Task BootAsync()
-    {
         try
         {
             await UnityServices.InitializeAsync();
             
-            AuthenticationService.Instance.SignedIn += OnSignedIn;
-            if (AuthenticationService.Instance.IsSignedIn)
-            {
-                OnSignedIn();
-                return;
-            }
+            if (!AuthenticationService.Instance.IsSignedIn)
+                await AuthenticationService.Instance.SignInAnonymouslyAsync();
             
-            await AuthenticationService.Instance.SignInAnonymouslyAsync();
+            Debug.Log($"Signed in as {AuthenticationService.Instance.PlayerId}");
+            RefreshServerList();
+        
+            _cts = new CancellationTokenSource();
+            PollServerListLoopAsync(_cts.Token).Forget();
         }
         catch (Exception e)
         {
             Debug.LogException(e);
         }
     }
-
-    private void OnSignedIn()
-    {
-        Debug.Log($"Signed in as {AuthenticationService.Instance.PlayerId}");
-        RefreshServerList();
-        
-        _cts = new CancellationTokenSource();
-        PollServerListLoopAsync(_cts.Token).Forget();
-    }
+    
     private async Task UpdateSessions()
     {
         var options = new QueryLobbiesOptions
@@ -121,9 +108,16 @@ public class ClientManager : Singleton<ClientManager>
         
         var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
         transport.SetConnectionData(ip, port);
-        
+
         if (!NetworkManager.Singleton.StartClient())
+        {
             Debug.LogError("Failed to start client.");
+            return;
+        }
+        
+        _cts?.Cancel();
+        _cts?.Dispose();
+        _cts = null;
     }
     
     private async UniTaskVoid PollServerListLoopAsync(CancellationToken token)
