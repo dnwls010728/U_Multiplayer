@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
@@ -8,12 +9,13 @@ using UnityEngine.SceneManagement;
 
 public class SessionManager : Singleton<SessionManager>
 {
+    [SerializeField] private GameObject _playerPrefab;
+    
     [SerializeField] [ReadOnly]
     private string _joinCode;
     
     public string JoinCode => _joinCode;
     
-    [Button]
     public async void OpenSession()
     {
         try
@@ -23,6 +25,9 @@ public class SessionManager : Singleton<SessionManager>
                 Debug.LogWarning("Already hosting a session.");
                 return;
             }
+            
+            NetworkManager.Singleton.ConnectionApprovalCallback -= Approval;
+            NetworkManager.Singleton.ConnectionApprovalCallback += Approval;
             
             var allocation = await RelayService.Instance.CreateAllocationAsync(4);
             _joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
@@ -36,6 +41,9 @@ public class SessionManager : Singleton<SessionManager>
                 return;
             }
 
+            NetworkManager.Singleton.SceneManager.OnSceneEvent -= OnSceneEvent;
+            NetworkManager.Singleton.SceneManager.OnSceneEvent += OnSceneEvent;
+            
             var status = NetworkManager.Singleton.SceneManager.LoadScene("WorldScene", LoadSceneMode.Single);
             if (status != SceneEventProgressStatus.Started)
             {
@@ -52,7 +60,6 @@ public class SessionManager : Singleton<SessionManager>
         }
     }
     
-    [Button]
     public async void JoinSession(string joinCode)
     {
         try
@@ -80,5 +87,30 @@ public class SessionManager : Singleton<SessionManager>
         {
             Debug.LogException(e);
         }
+    }
+    
+    private void Approval(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response)
+    {
+        response.Approved = true;
+        response.CreatePlayerObject = false;
+    }
+
+    private void OnSceneEvent(SceneEvent sceneEvent)
+    {
+        if (!NetworkManager.Singleton.IsServer) return;
+        if (sceneEvent.SceneName != "WorldScene") return;
+        
+        if (sceneEvent.SceneEventType == SceneEventType.LoadComplete)
+            TrySpawnPlayer(sceneEvent.ClientId);
+    }
+
+    private void TrySpawnPlayer(ulong clientId)
+    {
+        if (!NetworkManager.Singleton.ConnectedClients.TryGetValue(clientId, out var client)) return;
+        if (client.PlayerObject is not null) return;
+        
+        var go = Instantiate(_playerPrefab, new Vector3(0f, 1f), Quaternion.identity);
+        if (go.TryGetComponent(out NetworkObject no))
+            no.SpawnAsPlayerObject(clientId, true);
     }
 }
