@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Widgets/Scenes/WidgetsQuickstart.unity
     guid: f4d0a42535930384481b3cd51450f8b3
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 08900e388afcbe9479cec4b07aec98c7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
