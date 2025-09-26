@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class PlayerCharacter : CharacterBase
 {
-    private InputSystem_Actions _actions;
-
-    private void Awake()
-    {
-        if (!IsOwner) return;
-        _actions = new();
-    }
+    [SerializeField] private CharacterController _controller;
+    [SerializeField] private InputReader _input;
     
     private void Update()
     {
         if (!IsOwner) return;
+        
+        var direction = new Vector3(_input.Direction.x, 0, _input.Direction.y).normalized;
+        if (direction.magnitude > .1f)
+        {
+            var rotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 720f * Time.deltaTime);
+            // transform.LookAt(transform.position + direction);
+            
+            _controller.Move(direction * (5f * Time.deltaTime));
+        }
     }
     
     public override void OnNetworkSpawn()
@@ -27,6 +32,6 @@ public class PlayerCharacter : CharacterBase
         if (vcam is null) return;
         
         vcam.Follow = transform;
-        vcam.LookAt = transform;
+        // vcam.LookAt = transform;
     }
 }
