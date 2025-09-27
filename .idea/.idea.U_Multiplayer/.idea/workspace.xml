@@ -6,14 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c0e25842-68b7-49d6-b0de-0f6433ab4ddd" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U_Multiplayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U_Multiplayer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_SG_WorldBend_Lit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_SG_WorldBend_Lit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_Default.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_Ground.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerCharacter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WorldScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WorldScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem_Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputSystem_Actions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/SGF_WorldBend_Apply.shadersubgraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/SGF_WorldBend_Apply.shadersubgraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/SG_WorldBend_Lit.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/SG_WorldBend_Lit.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ea7b25136374921b3b84bfb3bed5e4aa6200/79/a902a0d9/ISession.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ea7b25136374921b3b84bfb3bed5e4aa6200/94/1beff218/IHostSession.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8e92af4e182b462686f266d38f0c5d80a6a00/52/580c99ea/SceneEventProgressStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b5bf0c891ea345fe93688f835df32fdc1dda00/78/3c552265/RenderPipelineManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b5bf0c891ea345fe93688f835df32fdc1dda00/d9/84c9bca6/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Woojin Choi/Unity Projects/U_Multiplayer/Assets/Scripts/Character/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkSingleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.dedicated-server/MultiplayerRoles/Runtime/MultiplayerRolesManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -209,6 +212,7 @@
       <workItem from="1758856629690" duration="7460000" />
       <workItem from="1758877174685" duration="7527000" />
       <workItem from="1758898515969" duration="5413000" />
+      <workItem from="1758950286271" duration="4958000" />
     </task>
     <task id="LOCAL-00001" summary="FEAT: Multiplayer 설정">
       <option name="closed" value="true" />

@@ -4,21 +4,36 @@ using UnityEngine;
 
 public class PlayerCharacter : CharacterBase
 {
-    [SerializeField] private CharacterController _controller;
+    [SerializeField] private Rigidbody _rb;
     [SerializeField] private InputReader _input;
+
+    private Vector3 _movement;
     
     private void Update()
     {
         if (!IsOwner) return;
         
-        var direction = new Vector3(_input.Direction.x, 0, _input.Direction.y).normalized;
-        if (direction.magnitude > .1f)
+        _movement = new Vector3(_input.Direction.x, 0, _input.Direction.y);
+
+        if (_movement.magnitude > 0f)
         {
-            var rotation = Quaternion.LookRotation(direction);
+            var rotation = Quaternion.LookRotation(_movement);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 720f * Time.deltaTime);
-            // transform.LookAt(transform.position + direction);
-            
-            _controller.Move(direction * (5f * Time.deltaTime));
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (!IsOwner) return;
+
+        if (_movement.magnitude > 0f)
+        {
+            var velocity = _movement * 5f;
+            _rb.linearVelocity = new Vector3(velocity.x, _rb.linearVelocity.y, velocity.z);
+        }
+        else
+        {
+            _rb.linearVelocity = new Vector3(0f, _rb.linearVelocity.y, 0f);
         }
     }
     
@@ -32,6 +47,6 @@ public class PlayerCharacter : CharacterBase
         if (vcam is null) return;
         
         vcam.Follow = transform;
-        // vcam.LookAt = transform;
+        vcam.LookAt = transform;
     }
 }
