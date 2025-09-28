@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerCharacter : CharacterBase
 {
-    [SerializeField] private Rigidbody _rb;
+    [SerializeField] private Rigidbody _rigid;
     [SerializeField] private InputReader _input;
+    
+    [SerializeField] private LayerMask _interactableMask;
 
     private Vector3 _movement;
     
@@ -29,11 +31,11 @@ public class PlayerCharacter : CharacterBase
         if (_movement.magnitude > 0f)
         {
             var velocity = _movement * 5f;
-            _rb.linearVelocity = new Vector3(velocity.x, _rb.linearVelocity.y, velocity.z);
+            _rigid.linearVelocity = new Vector3(velocity.x, _rigid.linearVelocity.y, velocity.z);
         }
         else
         {
-            _rb.linearVelocity = new Vector3(0f, _rb.linearVelocity.y, 0f);
+            _rigid.linearVelocity = new Vector3(0f, _rigid.linearVelocity.y, 0f);
         }
     }
     
@@ -48,5 +50,22 @@ public class PlayerCharacter : CharacterBase
         
         vcam.Follow = transform;
         vcam.LookAt = transform;
+
+        _input.Interact += OnInteract;
+    }
+
+    public void OnInteract()
+    {
+        var hasHit = Physics.Raycast(transform.position, transform.forward, out var hit, 1.5f, _interactableMask);
+        if (!hasHit) return;
+        
+        if (hit.collider.TryGetComponent<IInteractable>(out var interactable))
+            interactable.OnInteract();
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, transform.forward * 1.5f);
     }
 }

@@ -1,0 +1,4199 @@
+fileFormatVersion: 2
+guid: c9a1f27dd383c5e4f87b24af53cc5df9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8543205987004069466
+    second: T_FloorPatterns_MASK_0
+  - first:
+      213: 8917987550382076604
+    second: T_FloorPatterns_MASK_1
+  - first:
+      213: -8206687689128930765
+    second: T_FloorPatterns_MASK_2
+  - first:
+      213: -7019846913964960476
+    second: T_FloorPatterns_MASK_3
+  - first:
+      213: 6088586920965204819
+    second: T_FloorPatterns_MASK_4
+  - first:
+      213: -4546728414533961013
+    second: T_FloorPatterns_MASK_5
+  - first:
+      213: 4923233338773594166
+    second: T_FloorPatterns_MASK_6
+  - first:
+      213: 8479744736778964133
+    second: T_FloorPatterns_MASK_7
+  - first:
+      213: -3924802153777535412
+    second: T_FloorPatterns_MASK_8
+  - first:
+      213: -5658840397790497713
+    second: T_FloorPatterns_MASK_9
+  - first:
+      213: -8680904374781083846
+    second: T_FloorPatterns_MASK_10
+  - first:
+      213: 5364001859202566346
+    second: T_FloorPatterns_MASK_11
+  - first:
+      213: -6289547473249776318
+    second: T_FloorPatterns_MASK_12
+  - first:
+      213: -3927487249889127053
+    second: T_FloorPatterns_MASK_13
+  - first:
+      213: 5213437892928951411
+    second: T_FloorPatterns_MASK_14
+  - first:
+      213: 7363868872782026110
+    second: T_FloorPatterns_MASK_15
+  - first:
+      213: 3093819783352372021
+    second: T_FloorPatterns_MASK_16
+  - first:
+      213: -5424551730890796028
+    second: T_FloorPatterns_MASK_17
+  - first:
+      213: 9023426928323814734
+    second: T_FloorPatterns_MASK_18
+  - first:
+      213: -8117873344852183659
+    second: T_FloorPatterns_MASK_19
+  - first:
+      213: -1631049377314273672
+    second: T_FloorPatterns_MASK_20
+  - first:
+      213: -4048306460964500688
+    second: T_FloorPatterns_MASK_21
+  - first:
+      213: -7717434111091021168
+    second: T_FloorPatterns_MASK_22
+  - first:
+      213: -5079687617283630922
+    second: T_FloorPatterns_MASK_23
+  - first:
+      213: 154511421225988767
+    second: T_FloorPatterns_MASK_24
+  - first:
+      213: 4233217786237654283
+    second: T_FloorPatterns_MASK_25
+  - first:
+      213: 8221275196932769245
+    second: T_FloorPatterns_MASK_26
+  - first:
+      213: 1041490334503027725
+    second: T_FloorPatterns_MASK_27
+  - first:
+      213: 4653729404182084073
+    second: T_FloorPatterns_MASK_28
+  - first:
+      213: -8364588946910686550
+    second: T_FloorPatterns_MASK_29
+  - first:
+      213: -8024804067898581313
+    second: T_FloorPatterns_MASK_30
+  - first:
+      213: -5331951417710028582
+    second: T_FloorPatterns_MASK_31
+  - first:
+      213: 5122332449787123730
+    second: T_FloorPatterns_MASK_32
+  - first:
+      213: -7635055199069167181
+    second: T_FloorPatterns_MASK_33
+  - first:
+      213: 7311704783930700973
+    second: T_FloorPatterns_MASK_34
+  - first:
+      213: -8874104008938474514
+    second: T_FloorPatterns_MASK_35
+  - first:
+      213: -2064468184859530398
+    second: T_FloorPatterns_MASK_36
+  - first:
+      213: 8812745175432234922
+    second: T_FloorPatterns_MASK_37
+  - first:
+      213: -6963647411482665694
+    second: T_FloorPatterns_MASK_38
+  - first:
+      213: 8324945743322938641
+    second: T_FloorPatterns_MASK_39
+  - first:
+      213: -9007348706435981717
+    second: T_FloorPatterns_MASK_40
+  - first:
+      213: 2419589254993990611
+    second: T_FloorPatterns_MASK_41
+  - first:
+      213: 6899960074863236177
+    second: T_FloorPatterns_MASK_42
+  - first:
+      213: -4320366634904241630
+    second: T_FloorPatterns_MASK_43
+  - first:
+      213: -4933412311736533552
+    second: T_FloorPatterns_MASK_44
+  - first:
+      213: -4537457158012304840
+    second: T_FloorPatterns_MASK_45
+  - first:
+      213: 6541823711677919238
+    second: T_FloorPatterns_MASK_46
+  - first:
+      213: -96165739581076337
+    second: T_FloorPatterns_MASK_47
+  - first:
+      213: -4167642779599088942
+    second: T_FloorPatterns_MASK_48
+  - first:
+      213: 4689570846860500369
+    second: T_FloorPatterns_MASK_49
+  - first:
+      213: -8384914324850304497
+    second: T_FloorPatterns_MASK_50
+  - first:
+      213: 1016390815492799978
+    second: T_FloorPatterns_MASK_51
+  - first:
+      213: 7045523089235516486
+    second: T_FloorPatterns_MASK_52
+  - first:
+      213: -8405591680123178106
+    second: T_FloorPatterns_MASK_53
+  - first:
+      213: 8999556652258994357
+    second: T_FloorPatterns_MASK_54
+  - first:
+      213: -5327671486683836291
+    second: T_FloorPatterns_MASK_55
+  - first:
+      213: 3336812339413969274
+    second: T_FloorPatterns_MASK_56
+  - first:
+      213: -3287139248817233163
+    second: T_FloorPatterns_MASK_57
+  - first:
+      213: -2754128139146587255
+    second: T_FloorPatterns_MASK_58
+  - first:
+      213: 5776903420272367566
+    second: T_FloorPatterns_MASK_59
+  - first:
+      213: 4175262695137267861
+    second: T_FloorPatterns_MASK_60
+  - first:
+      213: -2815538035761758547
+    second: T_FloorPatterns_MASK_61
+  - first:
+      213: -2647115470730804456
+    second: T_FloorPatterns_MASK_62
+  - first:
+      213: -4066602309261917067
+    second: T_FloorPatterns_MASK_63
+  - first:
+      213: 2837974052888967580
+    second: T_FloorPatterns_MASK_64
+  - first:
+      213: -3269996600490155426
+    second: T_FloorPatterns_MASK_65
+  - first:
+      213: 9056536231279336779
+    second: T_FloorPatterns_MASK_66
+  - first:
+      213: -4232079054951399371
+    second: T_FloorPatterns_MASK_67
+  - first:
+      213: -6433906721637519766
+    second: T_FloorPatterns_MASK_68
+  - first:
+      213: 2885419689815614717
+    second: T_FloorPatterns_MASK_69
+  - first:
+      213: 3095816684137554808
+    second: T_FloorPatterns_MASK_70
+  - first:
+      213: 3486955470332544223
+    second: T_FloorPatterns_MASK_71
+  - first:
+      213: 3608967665448001012
+    second: T_FloorPatterns_MASK_72
+  - first:
+      213: -7882424784173788779
+    second: T_FloorPatterns_MASK_73
+  - first:
+      213: 9214481217839384503
+    second: T_FloorPatterns_MASK_74
+  - first:
+      213: 6641911838740635708
+    second: T_FloorPatterns_MASK_75
+  - first:
+      213: -8410912263863359072
+    second: T_FloorPatterns_MASK_76
+  - first:
+      213: -3981192287583341517
+    second: T_FloorPatterns_MASK_77
+  - first:
+      213: -5676288181912988889
+    second: T_FloorPatterns_MASK_78
+  - first:
+      213: 4115445146417304056
+    second: T_FloorPatterns_MASK_79
+  - first:
+      213: 371097239620249468
+    second: T_FloorPatterns_MASK_80
+  - first:
+      213: -6012572806949716316
+    second: T_FloorPatterns_MASK_81
+  - first:
+      213: -7037105584945046019
+    second: T_FloorPatterns_MASK_82
+  - first:
+      213: -3183903661043664419
+    second: T_FloorPatterns_MASK_83
+  - first:
+      213: 8749128956838881997
+    second: T_FloorPatterns_MASK_84
+  - first:
+      213: 2912720637575564811
+    second: T_FloorPatterns_MASK_85
+  - first:
+      213: 5516751041180545939
+    second: T_FloorPatterns_MASK_86
+  - first:
+      213: -2118779799072181619
+    second: T_FloorPatterns_MASK_87
+  - first:
+      213: 1982609719698081433
+    second: T_FloorPatterns_MASK_88
+  - first:
+      213: -7633029326440893047
+    second: T_FloorPatterns_MASK_89
+  - first:
+      213: 1129781462757716718
+    second: T_FloorPatterns_MASK_90
+  - first:
+      213: 8407453924376427658
+    second: T_FloorPatterns_MASK_91
+  - first:
+      213: -5359887750154692841
+    second: T_FloorPatterns_MASK_92
+  - first:
+      213: 4454126529737291700
+    second: T_FloorPatterns_MASK_93
+  - first:
+      213: 5214611194554929495
+    second: T_FloorPatterns_MASK_94
+  - first:
+      213: -159342291945407951
+    second: T_FloorPatterns_MASK_95
+  - first:
+      213: -2063344395165838237
+    second: T_FloorPatterns_MASK_96
+  - first:
+      213: -1111651979414600926
+    second: T_FloorPatterns_MASK_97
+  - first:
+      213: -4657993684028879495
+    second: T_FloorPatterns_MASK_98
+  - first:
+      213: -2627111883186415348
+    second: T_FloorPatterns_MASK_99
+  - first:
+      213: -7478519211961494121
+    second: T_FloorPatterns_MASK_100
+  - first:
+      213: -684656330648606634
+    second: T_FloorPatterns_MASK_101
+  - first:
+      213: -5591019142275662384
+    second: T_FloorPatterns_MASK_102
+  - first:
+      213: 8545953167752086254
+    second: T_FloorPatterns_MASK_103
+  - first:
+      213: 602523563283761319
+    second: T_FloorPatterns_MASK_104
+  - first:
+      213: 2320924949584615071
+    second: T_FloorPatterns_MASK_105
+  - first:
+      213: -9170018860988167790
+    second: T_FloorPatterns_MASK_106
+  - first:
+      213: -7037377297312851594
+    second: T_FloorPatterns_MASK_107
+  - first:
+      213: 2950306293053332564
+    second: T_FloorPatterns_MASK_108
+  - first:
+      213: -6751290355427318577
+    second: T_FloorPatterns_MASK_109
+  - first:
+      213: 262836959090185212
+    second: T_FloorPatterns_MASK_110
+  - first:
+      213: 4357035414533737189
+    second: T_FloorPatterns_MASK_111
+  - first:
+      213: -315863888884948346
+    second: T_FloorPatterns_MASK_112
+  - first:
+      213: 2518095827093318933
+    second: T_FloorPatterns_MASK_113
+  - first:
+      213: -3318834447626334422
+    second: T_FloorPatterns_MASK_114
+  - first:
+      213: -8572764091114876152
+    second: T_FloorPatterns_MASK_115
+  - first:
+      213: 4784525316046156094
+    second: T_FloorPatterns_MASK_116
+  - first:
+      213: 46276721879069497
+    second: T_FloorPatterns_MASK_117
+  - first:
+      213: 6495802571369312581
+    second: T_FloorPatterns_MASK_118
+  - first:
+      213: -7236654475764728157
+    second: T_FloorPatterns_MASK_119
+  - first:
+      213: -2946732870182692406
+    second: T_FloorPatterns_MASK_120
+  - first:
+      213: 8435901696273720121
+    second: T_FloorPatterns_MASK_121
+  - first:
+      213: -564425529313742682
+    second: T_FloorPatterns_MASK_122
+  - first:
+      213: -4399804016682833827
+    second: T_FloorPatterns_MASK_123
+  - first:
+      213: 8683553598678570874
+    second: T_FloorPatterns_MASK_124
+  - first:
+      213: -7771819744986809123
+    second: T_FloorPatterns_MASK_125
+  - first:
+      213: 8098199421925127697
+    second: T_FloorPatterns_MASK_126
+  - first:
+      213: -516094237889194989
+    second: T_FloorPatterns_MASK_127
+  - first:
+      213: -3887969345556420441
+    second: T_FloorPatterns_MASK_128
+  - first:
+      213: -4840165496361971102
+    second: T_FloorPatterns_MASK_129
+  - first:
+      213: -6803773064565783652
+    second: T_FloorPatterns_MASK_130
+  - first:
+      213: 3973333953724680883
+    second: T_FloorPatterns_MASK_131
+  - first:
+      213: 6382076464979417809
+    second: T_FloorPatterns_MASK_132
+  - first:
+      213: -2304323164275628026
+    second: T_FloorPatterns_MASK_133
+  - first:
+      213: -7485379488292304524
+    second: T_FloorPatterns_MASK_134
+  - first:
+      213: 1739762137794698964
+    second: T_FloorPatterns_MASK_135
+  - first:
+      213: -5508187493361602009
+    second: T_FloorPatterns_MASK_136
+  - first:
+      213: 1468062040478068036
+    second: T_FloorPatterns_MASK_137
+  - first:
+      213: 4319684428153366740
+    second: T_FloorPatterns_MASK_138
+  - first:
+      213: 2004051463776454358
+    second: T_FloorPatterns_MASK_139
+  - first:
+      213: -4131023133134388227
+    second: T_FloorPatterns_MASK_140
+  - first:
+      213: 8753677970791723997
+    second: T_FloorPatterns_MASK_141
+  - first:
+      213: 532511104681965107
+    second: T_FloorPatterns_MASK_142
+  - first:
+      213: 8315546538751492969
+    second: T_FloorPatterns_MASK_143
+  - first:
+      213: -6334525171268219785
+    second: T_FloorPatterns_MASK_144
+  - first:
+      213: 7465146895250313995
+    second: T_FloorPatterns_MASK_145
+  - first:
+      213: -2177635164928909764
+    second: T_FloorPatterns_MASK_146
+  - first:
+      213: -1210209223258526205
+    second: T_FloorPatterns_MASK_147
+  - first:
+      213: 5655775136194807922
+    second: T_FloorPatterns_MASK_148
+  - first:
+      213: 4833730243144992994
+    second: T_FloorPatterns_MASK_149
+  - first:
+      213: -2474613051677737750
+    second: T_FloorPatterns_MASK_150
+  - first:
+      213: -7022446404758836311
+    second: T_FloorPatterns_MASK_151
+  - first:
+      213: 3195955389875400425
+    second: T_FloorPatterns_MASK_152
+  - first:
+      213: 6128130277093308205
+    second: T_FloorPatterns_MASK_153
+  - first:
+      213: 1862350007911928319
+    second: T_FloorPatterns_MASK_154
+  - first:
+      213: -2161414152904261964
+    second: T_FloorPatterns_MASK_155
+  - first:
+      213: -1768961270483588213
+    second: T_FloorPatterns_MASK_156
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1905
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a563e52d4909f8670800000000000000
+      internalID: 8543205987004069466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2031
+        width: 94
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb231e37d6e03cb70800000000000000
+      internalID: 8917987550382076604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1885
+        width: 144
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33216e2170dfb1e80800000000000000
+      internalID: -8206687689128930765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1949
+        width: 152
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4251f7bac6e749e90800000000000000
+      internalID: -7019846913964960476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_4
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1905
+        width: 126
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b6830cb810f7450800000000000000
+      internalID: 6088586920965204819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_5
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2014
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca3789b896c6e0c0800000000000000
+      internalID: -4546728414533961013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2020
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630e5ff13a6d25440800000000000000
+      internalID: 4923233338773594166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_7
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1929
+        width: 155
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acc2b519ea1ea570800000000000000
+      internalID: 8479744736778964133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_8
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1930
+        width: 154
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46e6625c3d4889c0800000000000000
+      internalID: -3924802153777535412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_9
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1965
+        width: 114
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f443119d3a2c771b0800000000000000
+      internalID: -5658840397790497713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_10
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 2021
+        width: 95
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ff90ce67b378780800000000000000
+      internalID: -8680904374781083846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1820
+        width: 178
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8cd407543c07a40800000000000000
+      internalID: 5364001859202566346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_12
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1852
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dcdf285e907b8a0800000000000000
+      internalID: -6289547473249776318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_13
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1943
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3759b7aa723ce79c0800000000000000
+      internalID: -3927487249889127053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_14
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1824
+        width: 134
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3745792442ad95840800000000000000
+      internalID: 5213437892928951411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_15
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1816
+        width: 154
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e759abe69b7b13660800000000000000
+      internalID: 7363868872782026110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_16
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1841
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b4bc183b47fea20800000000000000
+      internalID: 3093819783352372021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_17
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1924
+        width: 26
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4041686f0fe18b4b0800000000000000
+      internalID: -5424551730890796028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1773
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e456f6fabf6a93d70800000000000000
+      internalID: 9023426928323814734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1669
+        width: 172
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59539740435875f80800000000000000
+      internalID: -8117873344852183659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_20
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1817
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8768f06ab395d59e0800000000000000
+      internalID: -1631049377314273672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_21
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1772
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bca4cf8b681d7c0800000000000000
+      internalID: -4048306460964500688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_22
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1725
+        width: 147
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aefee809a26e490800000000000000
+      internalID: -7717434111091021168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_23
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1698
+        width: 156
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8dbd186035189b0800000000000000
+      internalID: -5079687617283630922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_24
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1674
+        width: 158
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f927ae7a15fe42200800000000000000
+      internalID: 154511421225988767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_25
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1792
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b059f85e5296fba30800000000000000
+      internalID: 4233217786237654283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1514
+        width: 114
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd548e1cb36d71270800000000000000
+      internalID: 8221275196932769245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1565
+        width: 148
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d044e01f0fd147e00800000000000000
+      internalID: 1041490334503027725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1694
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e930119c3e559040800000000000000
+      internalID: 4653729404182084073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1595
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2da379ba20beb80800000000000000
+      internalID: -8364588946910686550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_30
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1689
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe9bcca73b22a090800000000000000
+      internalID: -8024804067898581313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_31
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1551
+        width: 140
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8d0cb7f6a1106b0800000000000000
+      internalID: -5331951417710028582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_32
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1568
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218940b493e261740800000000000000
+      internalID: 5122332449787123730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_33
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1597
+        width: 114
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1abfaafb5da0690800000000000000
+      internalID: -7635055199069167181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_34
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1674
+        width: 122
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4b6bc03c4687560800000000000000
+      internalID: 7311704783930700973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1542
+        width: 78
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee33a5fbb69d8d480800000000000000
+      internalID: -8874104008938474514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1460
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b2a57bf198953e0800000000000000
+      internalID: -2064468184859530398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1536
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa70dad8b092d4a70800000000000000
+      internalID: 8812745175432234922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_38
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1561
+        width: 112
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dd18103972c5f90800000000000000
+      internalID: -6963647411482665694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_39
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1489
+        width: 178
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11df92dcb06288370800000000000000
+      internalID: 8324945743322938641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_40
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1527
+        width: 104
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e1fc013187ff280800000000000000
+      internalID: -9007348706435981717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_41
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1531
+        width: 36
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3d44e9b9b149120800000000000000
+      internalID: 2419589254993990611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1394
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154d99a612591cf50800000000000000
+      internalID: 6899960074863236177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_43
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1422
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a35139f69fa04c0800000000000000
+      internalID: -4320366634904241630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1367
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddb76c04aff88bb0800000000000000
+      internalID: -4933412311736533552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_45
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1466
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8328f1951c6b701c0800000000000000
+      internalID: -4537457158012304840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_46
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1409
+        width: 126
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6003ac5710a39ca50800000000000000
+      internalID: 6541823711677919238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_47
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1411
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c05b4f4c95aaef0800000000000000
+      internalID: -96165739581076337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_48
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1317
+        width: 144
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2564b19fe8926c0800000000000000
+      internalID: -4167642779599088942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_49
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1445
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dd52cb6d3b41140800000000000000
+      internalID: 4689570846860500369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_50
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1442
+        width: 114
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a9633c8dcc2ab80800000000000000
+      internalID: -8384914324850304497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_51
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1427
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedfa66cf02fa1e00800000000000000
+      internalID: 1016390815492799978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_52
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1453
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c12bebbe9b6c160800000000000000
+      internalID: 7045523089235516486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1257
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6837743d6e6595b80800000000000000
+      internalID: -8405591680123178106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_54
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1224
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8a6e1f719d4ec70800000000000000
+      internalID: 8999556652258994357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_55
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1335
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d709b34920f4016b0800000000000000
+      internalID: -5327671486683836291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_56
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1290
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79e8ecb42dbe4e20800000000000000
+      internalID: 3336812339413969274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_57
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1260
+        width: 152
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2210be44cb162d0800000000000000
+      internalID: -3287139248817233163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_58
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1274
+        width: 150
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9839248ac0f57c9d0800000000000000
+      internalID: -2754128139146587255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_59
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1248
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d21bad0fab2050800000000000000
+      internalID: 5776903420272367566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_60
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1305
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d89bbc4381f930800000000000000
+      internalID: 4175262695137267861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_61
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1315
+        width: 114
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeb1d6e2133de8d0800000000000000
+      internalID: -2815538035761758547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_62
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1297
+        width: 21
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81346af118e834bd0800000000000000
+      internalID: -2647115470730804456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_63
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1175
+        width: 134
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57409a9deb68097c0800000000000000
+      internalID: -4066602309261917067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_64
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1181
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99f8386d52826720800000000000000
+      internalID: 2837974052888967580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_65
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1160
+        width: 114
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52ac03ca63ae92d0800000000000000
+      internalID: -3269996600490155426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_66
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1188
+        width: 122
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d1cd008b74fad70800000000000000
+      internalID: 9056536231279336779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_67
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1106
+        width: 146
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5304044a582a445c0800000000000000
+      internalID: -4232079054951399371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_68
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1142
+        width: 166
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e2ccacceb26b6a0800000000000000
+      internalID: -6433906721637519766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1017
+        width: 51
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4a0679be11b0820800000000000000
+      internalID: 2885419689815614717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_70
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1026
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8732fb33fdc86fa20800000000000000
+      internalID: 3095816684137554808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_71
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1009
+        width: 146
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4c6cc8687246030800000000000000
+      internalID: 3486955470332544223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_72
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1058
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd16e878f0a51230800000000000000
+      internalID: 3608967665448001012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_73
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1023
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5911692fb600c9290800000000000000
+      internalID: -7882424784173788779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_74
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1044
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b743d2e8d960ef70800000000000000
+      internalID: 9214481217839384503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_75
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 921
+        width: 166
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30e89180afcc2c50800000000000000
+      internalID: 6641911838740635708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_76
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1062
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a273ebdf664b80800000000000000
+      internalID: -8410912263863359072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_77
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1027
+        width: 142
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334f11c25b6ffb8c0800000000000000
+      internalID: -3981192287583341517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_78
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1039
+        width: 142
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723145a09f5c931b0800000000000000
+      internalID: -5676288181912988889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_79
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1053
+        width: 126
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f11fcc5e8ffc1930800000000000000
+      internalID: 4115445146417304056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_80
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1022
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7761b829f6662500800000000000000
+      internalID: 371097239620249468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 109
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeb69753ec0f8ca0800000000000000
+      internalID: -6012572806949716316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_82
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 942
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdde6231cd275e90800000000000000
+      internalID: -7037105584945046019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_83
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 850
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd93d644d7080d3d0800000000000000
+      internalID: -3183903661043664419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_84
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 860
+        width: 164
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca277e6e662b6970800000000000000
+      internalID: 8749128956838881997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_85
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 838
+        width: 164
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e04a4dcff0c6820800000000000000
+      internalID: 2912720637575564811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_86
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 907
+        width: 132
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39335dbc7df6f8c40800000000000000
+      internalID: 5516751041180545939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_87
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 833
+        width: 174
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82770f9ff49892e0800000000000000
+      internalID: -2118779799072181619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_88
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 813
+        width: 148
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99647d62905a38b10800000000000000
+      internalID: 1982609719698081433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_89
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 889
+        width: 164
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985f955e448021690800000000000000
+      internalID: -7633029326440893047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_90
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 938
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2be79214acdaf00800000000000000
+      internalID: 1129781462757716718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_91
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 901
+        width: 21
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cbbe3bcc64da470800000000000000
+      internalID: 8407453924376427658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 37
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717df083d7add95b0800000000000000
+      internalID: -5359887750154692841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 806
+        width: 140
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b772a5da7c30dd30800000000000000
+      internalID: 4454126529737291700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_94
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 710
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751d835d0450e5840800000000000000
+      internalID: 5214611194554929495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_95
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 708
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ab5ea9707e9cdf0800000000000000
+      internalID: -159342291945407951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_96
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 712
+        width: 140
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364d8d464378d53e0800000000000000
+      internalID: -2063344395165838237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_97
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 754
+        width: 120
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223022d1a6e9290f0800000000000000
+      internalID: -1111651979414600926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_98
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 722
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d02796c6b7b5fb0800000000000000
+      internalID: -4657993684028879495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_99
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 699
+        width: 105
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09577949af9a8bd0800000000000000
+      internalID: -2627111883186415348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_100
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 705
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795d91d4666f63890800000000000000
+      internalID: -7478519211961494121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_101
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 721
+        width: 133
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658a77ad1bc9f76f0800000000000000
+      internalID: -684656330648606634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 646
+        width: 124
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddff3c66b5b862b0800000000000000
+      internalID: -5591019142275662384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_103
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 592
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ccfea023599670800000000000000
+      internalID: 8545953167752086254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_104
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 568
+        width: 174
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8c45e0df79c5800800000000000000
+      internalID: 602523563283761319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_105
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 626
+        width: 114
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f961552e1f4953020800000000000000
+      internalID: 2320924949584615071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_106
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 693
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2990b274e6c8db080800000000000000
+      internalID: -9170018860988167790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_107
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 618
+        width: 110
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679d44b32a6365e90800000000000000
+      internalID: -7037377297312851594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_108
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 678
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c1b0031f791f820800000000000000
+      internalID: 2950306293053332564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 72
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4eb3d01399e42a0800000000000000
+      internalID: -6751290355427318577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_110
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 548
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf31a6c52d8c5a300800000000000000
+      internalID: 262836959090185212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_111
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 463
+        width: 144
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea841dff9c477c30800000000000000
+      internalID: 4357035414533737189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_112
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 455
+        width: 146
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a3a17773dd9bf0800000000000000
+      internalID: -315863888884948346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_113
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 456
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d6a4430d212f220800000000000000
+      internalID: 2518095827093318933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_114
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 483
+        width: 154
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f07e067a121f1d0800000000000000
+      internalID: -3318834447626334422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_115
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 528
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8039fd5ca7c670980800000000000000
+      internalID: -8572764091114876152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_116
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 470
+        width: 68
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e317bc9ec6c066240800000000000000
+      internalID: 4784525316046156094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933b8f0fe6864a000800000000000000
+      internalID: 46276721879069497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_118
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 348
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541798db50ab52a50800000000000000
+      internalID: 6495802571369312581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_119
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 287
+        width: 144
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae7dc1881d329b90800000000000000
+      internalID: -7236654475764728157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_120
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 391
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac91bc8211a1b17d0800000000000000
+      internalID: -2946732870182692406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_121
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 412
+        width: 136
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933a28eb5e7521570800000000000000
+      internalID: 8435901696273720121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_122
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 354
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0b717b8f1ca28f0800000000000000
+      internalID: -564425529313742682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_123
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 391
+        width: 134
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d586848de81c0f2c0800000000000000
+      internalID: -4399804016682833827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_124
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 370
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771d459dfd228870800000000000000
+      internalID: 8683553598678570874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_125
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 287
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcb1b96e13f42490800000000000000
+      internalID: -7771819744986809123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_126
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 347
+        width: 29
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116fe18d775926070800000000000000
+      internalID: 8098199421925127697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_127
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 263
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3141df7660776d8f0800000000000000
+      internalID: -516094237889194989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_128
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 214
+        width: 146
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a86084ca782b0ac0800000000000000
+      internalID: -3887969345556420441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_129
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 259
+        width: 124
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2621e37102744dcb0800000000000000
+      internalID: -4840165496361971102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_130
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 209
+        width: 154
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c938f2a12742491a0800000000000000
+      internalID: -6803773064565783652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_131
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 309
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba02c5ed2e142730800000000000000
+      internalID: 3973333953724680883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_132
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 273
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da9a703bb0b19850800000000000000
+      internalID: 6382076464979417809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_133
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 243
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608a5a97a466500e0800000000000000
+      internalID: -2304323164275628026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_134
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 218
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479875fb3079e1890800000000000000
+      internalID: -7485379488292304524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_135
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 222
+        width: 146
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de5de85270e42810800000000000000
+      internalID: 1739762137794698964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_136
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 65
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722beed88acfe83b0800000000000000
+      internalID: -5508187493361602009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_137
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 18
+        width: 130
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d2eeec5aa9f5410800000000000000
+      internalID: 1468062040478068036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_138
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 125
+        width: 138
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d82ed9c91a92fb30800000000000000
+      internalID: 4319684428153366740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_139
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 138
+        width: 108
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d64ff93032dfcb10800000000000000
+      internalID: 2004051463776454358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_140
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 122
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df38a96f858aba6c0800000000000000
+      internalID: -4131023133134388227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_141
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 34
+        width: 124
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3f3374cbf4b7970800000000000000
+      internalID: 8753677970791723997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_142
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 94
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336f481470cd36700800000000000000
+      internalID: 532511104681965107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_143
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 56
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9630383f481c66370800000000000000
+      internalID: 8315546538751492969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_144
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 37
+        width: 123
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c89c12bee3718a0800000000000000
+      internalID: -6334525171268219785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_145
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 92
+        width: 150
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0351879c87899760800000000000000
+      internalID: 7465146895250313995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_146
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 104
+        width: 150
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e5308ea5c77c1e0800000000000000
+      internalID: -2177635164928909764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_147
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 158
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e26c79f19743fe0800000000000000
+      internalID: -1210209223258526205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_148
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 135
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278c06255895d7e40800000000000000
+      internalID: 5655775136194807922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_149
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e848b2cb0cd41340800000000000000
+      internalID: 4833730243144992994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_150
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecf3326a8868add0800000000000000
+      internalID: -2474613051677737750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_151
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 122
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab612e83324b8e90800000000000000
+      internalID: -7022446404758836311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_152
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 0
+        width: 140
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eea4838e705a5c20800000000000000
+      internalID: 3195955389875400425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_153
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 0
+        width: 115
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27767fc40e7b0550800000000000000
+      internalID: 6128130277093308205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_154
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 93
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1590d077568d910800000000000000
+      internalID: 1862350007911928319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_155
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 0
+        width: 106
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beb3a3974d1102e0800000000000000
+      internalID: -2161414152904261964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FloorPatterns_MASK_156
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 29
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8be66bc8136377e0800000000000000
+      internalID: -1768961270483588213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_FloorPatterns_MASK_0: 8543205987004069466
+      T_FloorPatterns_MASK_1: 8917987550382076604
+      T_FloorPatterns_MASK_10: -8680904374781083846
+      T_FloorPatterns_MASK_100: -7478519211961494121
+      T_FloorPatterns_MASK_101: -684656330648606634
+      T_FloorPatterns_MASK_102: -5591019142275662384
+      T_FloorPatterns_MASK_103: 8545953167752086254
+      T_FloorPatterns_MASK_104: 602523563283761319
+      T_FloorPatterns_MASK_105: 2320924949584615071
+      T_FloorPatterns_MASK_106: -9170018860988167790
+      T_FloorPatterns_MASK_107: -7037377297312851594
+      T_FloorPatterns_MASK_108: 2950306293053332564
+      T_FloorPatterns_MASK_109: -6751290355427318577
+      T_FloorPatterns_MASK_11: 5364001859202566346
+      T_FloorPatterns_MASK_110: 262836959090185212
+      T_FloorPatterns_MASK_111: 4357035414533737189
+      T_FloorPatterns_MASK_112: -315863888884948346
+      T_FloorPatterns_MASK_113: 2518095827093318933
+      T_FloorPatterns_MASK_114: -3318834447626334422
+      T_FloorPatterns_MASK_115: -8572764091114876152
+      T_FloorPatterns_MASK_116: 4784525316046156094
+      T_FloorPatterns_MASK_117: 46276721879069497
+      T_FloorPatterns_MASK_118: 6495802571369312581
+      T_FloorPatterns_MASK_119: -7236654475764728157
+      T_FloorPatterns_MASK_12: -6289547473249776318
+      T_FloorPatterns_MASK_120: -2946732870182692406
+      T_FloorPatterns_MASK_121: 8435901696273720121
+      T_FloorPatterns_MASK_122: -564425529313742682
+      T_FloorPatterns_MASK_123: -4399804016682833827
+      T_FloorPatterns_MASK_124: 8683553598678570874
+      T_FloorPatterns_MASK_125: -7771819744986809123
+      T_FloorPatterns_MASK_126: 8098199421925127697
+      T_FloorPatterns_MASK_127: -516094237889194989
+      T_FloorPatterns_MASK_128: -3887969345556420441
+      T_FloorPatterns_MASK_129: -4840165496361971102
+      T_FloorPatterns_MASK_13: -3927487249889127053
+      T_FloorPatterns_MASK_130: -6803773064565783652
+      T_FloorPatterns_MASK_131: 3973333953724680883
+      T_FloorPatterns_MASK_132: 6382076464979417809
+      T_FloorPatterns_MASK_133: -2304323164275628026
+      T_FloorPatterns_MASK_134: -7485379488292304524
+      T_FloorPatterns_MASK_135: 1739762137794698964
+      T_FloorPatterns_MASK_136: -5508187493361602009
+      T_FloorPatterns_MASK_137: 1468062040478068036
+      T_FloorPatterns_MASK_138: 4319684428153366740
+      T_FloorPatterns_MASK_139: 2004051463776454358
+      T_FloorPatterns_MASK_14: 5213437892928951411
+      T_FloorPatterns_MASK_140: -4131023133134388227
+      T_FloorPatterns_MASK_141: 8753677970791723997
+      T_FloorPatterns_MASK_142: 532511104681965107
+      T_FloorPatterns_MASK_143: 8315546538751492969
+      T_FloorPatterns_MASK_144: -6334525171268219785
+      T_FloorPatterns_MASK_145: 7465146895250313995
+      T_FloorPatterns_MASK_146: -2177635164928909764
+      T_FloorPatterns_MASK_147: -1210209223258526205
+      T_FloorPatterns_MASK_148: 5655775136194807922
+      T_FloorPatterns_MASK_149: 4833730243144992994
+      T_FloorPatterns_MASK_15: 7363868872782026110
+      T_FloorPatterns_MASK_150: -2474613051677737750
+      T_FloorPatterns_MASK_151: -7022446404758836311
+      T_FloorPatterns_MASK_152: 3195955389875400425
+      T_FloorPatterns_MASK_153: 6128130277093308205
+      T_FloorPatterns_MASK_154: 1862350007911928319
+      T_FloorPatterns_MASK_155: -2161414152904261964
+      T_FloorPatterns_MASK_156: -1768961270483588213
+      T_FloorPatterns_MASK_16: 3093819783352372021
+      T_FloorPatterns_MASK_17: -5424551730890796028
+      T_FloorPatterns_MASK_18: 9023426928323814734
+      T_FloorPatterns_MASK_19: -8117873344852183659
+      T_FloorPatterns_MASK_2: -8206687689128930765
+      T_FloorPatterns_MASK_20: -1631049377314273672
+      T_FloorPatterns_MASK_21: -4048306460964500688
+      T_FloorPatterns_MASK_22: -7717434111091021168
+      T_FloorPatterns_MASK_23: -5079687617283630922
+      T_FloorPatterns_MASK_24: 154511421225988767
+      T_FloorPatterns_MASK_25: 4233217786237654283
+      T_FloorPatterns_MASK_26: 8221275196932769245
+      T_FloorPatterns_MASK_27: 1041490334503027725
+      T_FloorPatterns_MASK_28: 4653729404182084073
+      T_FloorPatterns_MASK_29: -8364588946910686550
+      T_FloorPatterns_MASK_3: -7019846913964960476
+      T_FloorPatterns_MASK_30: -8024804067898581313
+      T_FloorPatterns_MASK_31: -5331951417710028582
+      T_FloorPatterns_MASK_32: 5122332449787123730
+      T_FloorPatterns_MASK_33: -7635055199069167181
+      T_FloorPatterns_MASK_34: 7311704783930700973
+      T_FloorPatterns_MASK_35: -8874104008938474514
+      T_FloorPatterns_MASK_36: -2064468184859530398
+      T_FloorPatterns_MASK_37: 8812745175432234922
+      T_FloorPatterns_MASK_38: -6963647411482665694
+      T_FloorPatterns_MASK_39: 8324945743322938641
+      T_FloorPatterns_MASK_4: 6088586920965204819
+      T_FloorPatterns_MASK_40: -9007348706435981717
+      T_FloorPatterns_MASK_41: 2419589254993990611
+      T_FloorPatterns_MASK_42: 6899960074863236177
+      T_FloorPatterns_MASK_43: -4320366634904241630
+      T_FloorPatterns_MASK_44: -4933412311736533552
+      T_FloorPatterns_MASK_45: -4537457158012304840
+      T_FloorPatterns_MASK_46: 6541823711677919238
+      T_FloorPatterns_MASK_47: -96165739581076337
+      T_FloorPatterns_MASK_48: -4167642779599088942
+      T_FloorPatterns_MASK_49: 4689570846860500369
+      T_FloorPatterns_MASK_5: -4546728414533961013
+      T_FloorPatterns_MASK_50: -8384914324850304497
+      T_FloorPatterns_MASK_51: 1016390815492799978
+      T_FloorPatterns_MASK_52: 7045523089235516486
+      T_FloorPatterns_MASK_53: -8405591680123178106
+      T_FloorPatterns_MASK_54: 8999556652258994357
+      T_FloorPatterns_MASK_55: -5327671486683836291
+      T_FloorPatterns_MASK_56: 3336812339413969274
+      T_FloorPatterns_MASK_57: -3287139248817233163
+      T_FloorPatterns_MASK_58: -2754128139146587255
+      T_FloorPatterns_MASK_59: 5776903420272367566
+      T_FloorPatterns_MASK_6: 4923233338773594166
+      T_FloorPatterns_MASK_60: 4175262695137267861
+      T_FloorPatterns_MASK_61: -2815538035761758547
+      T_FloorPatterns_MASK_62: -2647115470730804456
+      T_FloorPatterns_MASK_63: -4066602309261917067
+      T_FloorPatterns_MASK_64: 2837974052888967580
+      T_FloorPatterns_MASK_65: -3269996600490155426
+      T_FloorPatterns_MASK_66: 9056536231279336779
+      T_FloorPatterns_MASK_67: -4232079054951399371
+      T_FloorPatterns_MASK_68: -6433906721637519766
+      T_FloorPatterns_MASK_69: 2885419689815614717
+      T_FloorPatterns_MASK_7: 8479744736778964133
+      T_FloorPatterns_MASK_70: 3095816684137554808
+      T_FloorPatterns_MASK_71: 3486955470332544223
+      T_FloorPatterns_MASK_72: 3608967665448001012
+      T_FloorPatterns_MASK_73: -7882424784173788779
+      T_FloorPatterns_MASK_74: 9214481217839384503
+      T_FloorPatterns_MASK_75: 6641911838740635708
+      T_FloorPatterns_MASK_76: -8410912263863359072
+      T_FloorPatterns_MASK_77: -3981192287583341517
+      T_FloorPatterns_MASK_78: -5676288181912988889
+      T_FloorPatterns_MASK_79: 4115445146417304056
+      T_FloorPatterns_MASK_8: -3924802153777535412
+      T_FloorPatterns_MASK_80: 371097239620249468
+      T_FloorPatterns_MASK_81: -6012572806949716316
+      T_FloorPatterns_MASK_82: -7037105584945046019
+      T_FloorPatterns_MASK_83: -3183903661043664419
+      T_FloorPatterns_MASK_84: 8749128956838881997
+      T_FloorPatterns_MASK_85: 2912720637575564811
+      T_FloorPatterns_MASK_86: 5516751041180545939
+      T_FloorPatterns_MASK_87: -2118779799072181619
+      T_FloorPatterns_MASK_88: 1982609719698081433
+      T_FloorPatterns_MASK_89: -7633029326440893047
+      T_FloorPatterns_MASK_9: -5658840397790497713
+      T_FloorPatterns_MASK_90: 1129781462757716718
+      T_FloorPatterns_MASK_91: 8407453924376427658
+      T_FloorPatterns_MASK_92: -5359887750154692841
+      T_FloorPatterns_MASK_93: 4454126529737291700
+      T_FloorPatterns_MASK_94: 5214611194554929495
+      T_FloorPatterns_MASK_95: -159342291945407951
+      T_FloorPatterns_MASK_96: -2063344395165838237
+      T_FloorPatterns_MASK_97: -1111651979414600926
+      T_FloorPatterns_MASK_98: -4657993684028879495
+      T_FloorPatterns_MASK_99: -2627111883186415348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

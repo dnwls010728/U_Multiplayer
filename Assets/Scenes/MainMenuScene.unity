@@ -548,7 +548,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
   _playerPrefab: {fileID: 3188775947146471978, guid: 8c8cc36ba633c5845ba03a403a9d2a3f, type: 3}
+  _gameStatePrefab: {fileID: 5138724962147190236, guid: 3b5d07098ad888c47b1051c0a6228dca, type: 3}
   _joinCode: 
+  <WorldState>k__BackingField: {fileID: 0}
 --- !u!4 &1158715256
 Transform:
   m_ObjectHideFlags: 0

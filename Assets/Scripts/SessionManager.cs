@@ -10,9 +10,13 @@ using UnityEngine.SceneManagement;
 public class SessionManager : Singleton<SessionManager>
 {
     [SerializeField] private GameObject _playerPrefab;
+    [SerializeField] private GameObject _gameStatePrefab;
     
-    [SerializeField] [ReadOnly]
+    [SerializeField, ReadOnly]
     private string _joinCode;
+    
+    [field: SerializeField, ReadOnly]
+    public WorldState WorldState { get; set; }
     
     public string JoinCode => _joinCode;
     
@@ -99,6 +103,13 @@ public class SessionManager : Singleton<SessionManager>
     {
         if (!NetworkManager.Singleton.IsServer) return;
         if (sceneEvent.SceneName != "WorldScene") return;
+
+        if (sceneEvent.SceneEventType == SceneEventType.LoadEventCompleted)
+        {
+            var go = Instantiate(_gameStatePrefab);
+            if (go.TryGetComponent(out NetworkObject no))
+                no.Spawn(true);
+        }
         
         if (sceneEvent.SceneEventType == SceneEventType.LoadComplete)
             TrySpawnPlayer(sceneEvent.ClientId);
