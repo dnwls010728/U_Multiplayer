@@ -23,6 +23,9 @@
         },
         {
             "m_Id": "6bef9de8babd424b8326b742ec3594b6"
+        },
+        {
+            "m_Id": "7c976ff4e0784f70825144e857b557c7"
         }
     ],
     "m_Keywords": [],
@@ -1013,6 +1016,9 @@
         },
         {
             "m_Id": "6bef9de8babd424b8326b742ec3594b6"
+        },
+        {
+            "m_Id": "7c976ff4e0784f70825144e857b557c7"
         }
     ]
 }
@@ -1707,6 +1713,36 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "7c976ff4e0784f70825144e857b557c7",
+    "m_Guid": {
+        "m_GuidSerialized": "72f73b0b-d6df-4b10-ae59-bc0238e1a73c"
+    },
+    "m_Name": "EyeColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "EyeColor",
+    "m_DefaultReferenceName": "_EyeColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {

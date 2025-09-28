@@ -228,6 +228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SKM_Human
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7c09b6a6ed14d8c4ba73ce52472363dc, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
