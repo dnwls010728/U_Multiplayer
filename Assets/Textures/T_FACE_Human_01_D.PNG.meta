@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: b4372283c274fdd4abe7aa2160cfdb61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1558294226148006341
+    second: T_FACE_Human_01_D_0
+  - first:
+      213: -1371245256527882770
+    second: T_FACE_Human_01_D_1
+  - first:
+      213: 7513929298593381170
+    second: T_FACE_Human_01_D_2
+  - first:
+      213: 1091543680408401506
+    second: T_FACE_Human_01_D_3
+  - first:
+      213: 5282635141172474854
+    second: T_FACE_Human_01_D_4
+  - first:
+      213: -3594202548432024507
+    second: T_FACE_Human_01_D_5
+  - first:
+      213: 8131660536197184717
+    second: T_FACE_Human_01_D_6
+  - first:
+      213: 5395408727452080971
+    second: T_FACE_Human_01_D_7
+  - first:
+      213: -6349752550874831167
+    second: T_FACE_Human_01_D_8
+  - first:
+      213: 5271987243503951300
+    second: T_FACE_Human_01_D_9
+  - first:
+      213: 7139036777291677775
+    second: T_FACE_Human_01_D_10
+  - first:
+      213: 4144617158403470250
+    second: T_FACE_Human_01_D_11
+  - first:
+      213: 7707793299062893115
+    second: T_FACE_Human_01_D_12
+  - first:
+      213: -6554847405493813901
+    second: T_FACE_Human_01_D_13
+  - first:
+      213: 8114960381952413606
+    second: T_FACE_Human_01_D_14
+  - first:
+      213: 5077865369146407938
+    second: T_FACE_Human_01_D_15
+  - first:
+      213: -3060967417728725348
+    second: T_FACE_Human_01_D_16
+  - first:
+      213: 3773011779572447545
+    second: T_FACE_Human_01_D_17
+  - first:
+      213: 7977120403726238491
+    second: T_FACE_Human_01_D_18
+  - first:
+      213: 8347443855616050893
+    second: T_FACE_Human_01_D_19
+  - first:
+      213: -6854701700532489272
+    second: T_FACE_Human_01_D_20
+  - first:
+      213: -541096934946180480
+    second: T_FACE_Human_01_D_21
+  - first:
+      213: -5995676391354774231
+    second: T_FACE_Human_01_D_22
+  - first:
+      213: -4638488247311470694
+    second: T_FACE_Human_01_D_23
+  - first:
+      213: 1534029150598252916
+    second: T_FACE_Human_01_D_24
+  - first:
+      213: 8618463674289114945
+    second: T_FACE_Human_01_D_25
+  - first:
+      213: -913958842822343631
+    second: T_FACE_Human_01_D_26
+  - first:
+      213: -6496789945204311457
+    second: T_FACE_Human_01_D_27
+  - first:
+      213: -2506180059944270723
+    second: T_FACE_Human_01_D_28
+  - first:
+      213: 199765939757102494
+    second: T_FACE_Human_01_D_29
+  - first:
+      213: -6168389360500002743
+    second: T_FACE_Human_01_D_30
+  - first:
+      213: -8203750755203588693
+    second: T_FACE_Human_01_D_31
+  - first:
+      213: 785448306640323195
+    second: T_FACE_Human_01_D_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_0
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1945
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9181da75c20a510800000000000000
+      internalID: 1558294226148006341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1945
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee557b054bb58fce0800000000000000
+      internalID: -1371245256527882770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1691
+        width: 230
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bfe06f2e6d64860800000000000000
+      internalID: 7513929298593381170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1687
+        width: 230
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266b09fa131f52f00800000000000000
+      internalID: 1091543680408401506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_4
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1691
+        width: 208
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3b49b1ca0bf4940800000000000000
+      internalID: 5282635141172474854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1836
+        width: 106
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cc7e933d3de1ec0800000000000000
+      internalID: -3594202548432024507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_6
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1836
+        width: 106
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc781e9c2679d070800000000000000
+      internalID: 8131660536197184717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_7
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1687
+        width: 209
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bd2d9c6a750ea40800000000000000
+      internalID: 5395408727452080971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1551
+        width: 127
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6a97982b521e7a0800000000000000
+      internalID: -6349752550874831167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_9
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1551
+        width: 127
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd917d377cd92940800000000000000
+      internalID: 5271987243503951300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1282
+        width: 206
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f408becef14f21360800000000000000
+      internalID: 7139036777291677775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1278
+        width: 205
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3b0a0b853a48930800000000000000
+      internalID: 4144617158403470250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_12
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1460
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aa7c8fa2597fa60800000000000000
+      internalID: 7707793299062893115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_13
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1461
+        width: 122
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d76a683018805a0800000000000000
+      internalID: -6554847405493813901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_14
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1275
+        width: 197
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af44a4f8712e9070800000000000000
+      internalID: 8114960381952413606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_15
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1275
+        width: 197
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cba3946a3387640800000000000000
+      internalID: 5077865369146407938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1126
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e0c3de9524585d0800000000000000
+      internalID: -3060967417728725348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1126
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939b7c6293e6c5430800000000000000
+      internalID: 3773011779572447545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_18
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1126
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b138f9a1ebc64be60800000000000000
+      internalID: 7977120403726238491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_19
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1126
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc60384c5f318d370800000000000000
+      internalID: 8347443855616050893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 930
+        width: 216
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3be720f153fd0a0800000000000000
+      internalID: -6854701700532489272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 930
+        width: 216
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082fa7b5433ad78f0800000000000000
+      internalID: -541096934946180480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_22
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 960
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d4a19a6141bcca0800000000000000
+      internalID: -5995676391354774231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_23
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 960
+        width: 212
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fec2cc387c0afb0800000000000000
+      internalID: -4638488247311470694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_24
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 873
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479c0848267f94510800000000000000
+      internalID: 1534029150598252916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 873
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f4c979c0fea9770800000000000000
+      internalID: 8618463674289114945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 600
+        width: 161
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1344f3a5647f053f0800000000000000
+      internalID: -913958842822343631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_27
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 660
+        width: 316
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a74cf57f3c6d5a0800000000000000
+      internalID: -6496789945204311457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_28
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 554
+        width: 294
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74cad78382483dd0800000000000000
+      internalID: -2506180059944270723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 146
+        width: 139
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95b1755016b5c200800000000000000
+      internalID: 199765939757102494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_30
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 149
+        width: 240
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9403913ee8a756aa0800000000000000
+      internalID: -6168389360500002743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_31
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 195
+        width: 208
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad5f3a472c662e80800000000000000
+      internalID: -8203750755203588693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_FACE_Human_01_D_32
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 143
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b728abac21976ea00800000000000000
+      internalID: 785448306640323195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_FACE_Human_01_D_0: 1558294226148006341
+      T_FACE_Human_01_D_1: -1371245256527882770
+      T_FACE_Human_01_D_10: 7139036777291677775
+      T_FACE_Human_01_D_11: 4144617158403470250
+      T_FACE_Human_01_D_12: 7707793299062893115
+      T_FACE_Human_01_D_13: -6554847405493813901
+      T_FACE_Human_01_D_14: 8114960381952413606
+      T_FACE_Human_01_D_15: 5077865369146407938
+      T_FACE_Human_01_D_16: -3060967417728725348
+      T_FACE_Human_01_D_17: 3773011779572447545
+      T_FACE_Human_01_D_18: 7977120403726238491
+      T_FACE_Human_01_D_19: 8347443855616050893
+      T_FACE_Human_01_D_2: 7513929298593381170
+      T_FACE_Human_01_D_20: -6854701700532489272
+      T_FACE_Human_01_D_21: -541096934946180480
+      T_FACE_Human_01_D_22: -5995676391354774231
+      T_FACE_Human_01_D_23: -4638488247311470694
+      T_FACE_Human_01_D_24: 1534029150598252916
+      T_FACE_Human_01_D_25: 8618463674289114945
+      T_FACE_Human_01_D_26: -913958842822343631
+      T_FACE_Human_01_D_27: -6496789945204311457
+      T_FACE_Human_01_D_28: -2506180059944270723
+      T_FACE_Human_01_D_29: 199765939757102494
+      T_FACE_Human_01_D_3: 1091543680408401506
+      T_FACE_Human_01_D_30: -6168389360500002743
+      T_FACE_Human_01_D_31: -8203750755203588693
+      T_FACE_Human_01_D_32: 785448306640323195
+      T_FACE_Human_01_D_4: 5282635141172474854
+      T_FACE_Human_01_D_5: -3594202548432024507
+      T_FACE_Human_01_D_6: 8131660536197184717
+      T_FACE_Human_01_D_7: 5395408727452080971
+      T_FACE_Human_01_D_8: -6349752550874831167
+      T_FACE_Human_01_D_9: 5271987243503951300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
