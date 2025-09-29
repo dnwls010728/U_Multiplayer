@@ -6,7 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="c0e25842-68b7-49d6-b0de-0f6433ab4ddd" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U_Multiplayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U_Multiplayer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_F_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_F_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_L_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_L_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_R_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Idle_R_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_F_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_F_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_L_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_L_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_R_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Run_R_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_F_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_F_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_L_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_L_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_R_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ANIM_Avatar_Walk_R_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/SKM_Human.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/SKM_Human.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TempScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TempScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/SG_Eyes_SpriteSheet.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/SG_Eyes_SpriteSheet.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/T_HAIR_HimeCut_D.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/T_HAIR_HimeCut_D.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/T_HAIR_HimeCut_N.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/T_HAIR_HimeCut_N.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UserChoices.choices" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UserChoices.choices" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/MultiplayerManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/MultiplayerManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +53,12 @@
     &quot;assignee&quot;: &quot;dnwls010728&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dnwls010728/U_Multiplayer.git&quot;,
-    &quot;accountId&quot;: &quot;cbdadc83-a256-4647-b366-656cdd0badee&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dnwls010728/U_Multiplayer.git",
+    "accountId": "78a9b8cb-e507-4509-9d01-273f76edf4c2"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/074c55c53c854a10a6f9b5c2010a2ae0a6200/34/2d2b68bb/IMultiplayerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/074c55c53c854a10a6f9b5c2010a2ae0a6200/82/2f93befa/ISession.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,7 +145,7 @@
 }</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Woojin Choi\Unity Projects\U_Multiplayer&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Woojin Choi\Unity Projects\U_Multiplayer" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -142,7 +169,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Woojin Choi\Unity Projects\U_Multiplayer&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Woojin Choi\Unity Projects\U_Multiplayer" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -208,6 +235,7 @@
       <workItem from="1758981687020" duration="3900000" />
       <workItem from="1759031782685" duration="4841000" />
       <workItem from="1759066227310" duration="1568000" />
+      <workItem from="1759108514312" duration="7253000" />
     </task>
     <task id="LOCAL-00001" summary="FEAT: Multiplayer 설정">
       <option name="closed" value="true" />

@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3255924827497869243}
   - component: {fileID: 4879989269513223830}
   - component: {fileID: -1509862661593312406}
+  - component: {fileID: 5480713650762486967}
+  - component: {fileID: 1329645502443483144}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -126,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   _rigid: {fileID: 2538273382856538676}
+  _animator: {fileID: 3658102314844170657}
   _input: {fileID: 11400000, guid: 2cc5a908a80884444b336dbd2f2ad96f, type: 2}
   _interactableMask:
     serializedVersion: 2
@@ -176,6 +179,38 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!114 &5480713650762486967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3188775947146471978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c0be61502bb534f922ebb746851216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkRigidbodyBaseExpanded: 0
+  UseRigidBodyForMotion: 1
+  AutoUpdateKinematicState: 1
+  AutoSetKinematicOnDespawn: 1
+--- !u!114 &1329645502443483144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3188775947146471978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c05d2b03a981dc48b6accb9ef9368e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  TransitionStateInfoList: []
+  m_Animator: {fileID: 3658102314844170657}
 --- !u!1001 &7182859898736251952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,6 +272,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
+--- !u!95 &3658102314844170657 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
+  m_PrefabInstance: {fileID: 7182859898736251952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7215923804695950299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}

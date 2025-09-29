@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerCharacter : CharacterBase
 {
     [SerializeField] private Rigidbody _rigid;
+    [SerializeField] private Animator _animator;
     [SerializeField] private InputReader _input;
-    
     [SerializeField] private LayerMask _interactableMask;
 
     private Vector3 _movement;
@@ -20,8 +20,19 @@ public class PlayerCharacter : CharacterBase
         if (_movement.magnitude > 0f)
         {
             var rotation = Quaternion.LookRotation(_movement);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 720f * Time.deltaTime);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 300f * Time.deltaTime);
         }
+        
+        var velocity = _rigid.linearVelocity;
+        var velocityXZ = new Vector3(velocity.x, 0f, velocity.z);
+        var speed = velocityXZ.magnitude;
+        speed = Mathf.Clamp01(speed / 5f);
+        
+        float direction = Vector3.SignedAngle(transform.forward, velocity.normalized, Vector3.up);
+        direction = Mathf.Clamp(direction / 180f, -1f, 1f);
+        
+        _animator.SetFloat(Animator.StringToHash("Direction"), direction);
+        _animator.SetFloat(Animator.StringToHash("Speed"), speed);
     }
 
     private void FixedUpdate()
@@ -30,7 +41,7 @@ public class PlayerCharacter : CharacterBase
 
         if (_movement.magnitude > 0f)
         {
-            var velocity = _movement * 5f;
+            var velocity = _movement * 1.5f;
             _rigid.linearVelocity = new Vector3(velocity.x, _rigid.linearVelocity.y, velocity.z);
         }
         else
