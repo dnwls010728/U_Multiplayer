@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MI_Hair_HimeCut
-    second: {fileID: 2100000, guid: 0f516c4a8322fec4581c0f4f2f973834, type: 2}
+    second: {fileID: 2100000, guid: b463e0576ca5cd947b9d3ba7f4961ffe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
