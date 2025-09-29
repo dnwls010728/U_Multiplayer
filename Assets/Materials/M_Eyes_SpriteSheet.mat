@@ -58,11 +58,14 @@ Material:
     - _EOU: 0
     - _EOV: 0
     - _Emissive: 0.1
+    - _EyeDarkerMultiplyAmount: 0.1
     - _GridSizeX: 2
     - _GridSizeY: 5
+    - _Max: 0.75
+    - _Min: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _EyeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EyeColor: {r: 0.52156866, g: 0.7294118, b: 0.76862746, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
