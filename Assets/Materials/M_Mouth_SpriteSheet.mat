@@ -47,6 +47,8 @@ Material:
     - _Emissive: 0.1
     - _GridSizeX: 3
     - _GridSizeY: 5
+    - _MOU: 0
+    - _MOV: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []

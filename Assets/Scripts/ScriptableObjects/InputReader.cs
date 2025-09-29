@@ -8,6 +8,10 @@ public class InputReader : ScriptableObject, IPlayerActions
 {
     public event UnityAction<Vector2> Move = delegate { };
     public event UnityAction Interact = delegate { };
+    // public event UnityAction Sprint = delegate { };
+    
+    public event UnityAction SprintKeyDown = delegate { };
+    public event UnityAction SprintKeyUp = delegate { };
     
     private InputSystem_Actions _inputActions;
     
@@ -37,5 +41,11 @@ public class InputReader : ScriptableObject, IPlayerActions
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (context.performed) Interact?.Invoke();
+    }
+    
+    public void OnSprint(InputAction.CallbackContext context)
+    {
+        if (context.performed) SprintKeyDown?.Invoke();
+        if (context.canceled) SprintKeyUp?.Invoke();
     }
 }

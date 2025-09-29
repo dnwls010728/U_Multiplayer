@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+  _renderer: {fileID: 351484816951156717}
   _rigid: {fileID: 2538273382856538676}
   _animator: {fileID: 3658102314844170657}
   _input: {fileID: 11400000, guid: 2cc5a908a80884444b336dbd2f2ad96f, type: 2}
@@ -272,6 +273,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
+--- !u!137 &351484816951156717 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7443918644624722909, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
+  m_PrefabInstance: {fileID: 7182859898736251952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &3658102314844170657 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 48001b642ddb47e4083da6cb0c68a543, type: 3}
