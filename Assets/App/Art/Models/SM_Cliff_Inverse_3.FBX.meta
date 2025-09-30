@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: M_Cliff
     second: {fileID: 2100000, guid: 88b6acb17927e4243921d176f755ec6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ground
+    second: {fileID: 2100000, guid: 6654affbf41c8674e96c2bdd4a2e1382, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
