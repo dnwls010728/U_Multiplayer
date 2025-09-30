@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 45eb4feef0f3f6c47bc262336ccd824c
+guid: 8443d6972a02a564baaa75546071e1f6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Human_Nose_01
-    second: {fileID: 2100000, guid: 7f19d2dc149a17545acdc2ff613c2601, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

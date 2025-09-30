@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 45eb4feef0f3f6c47bc262336ccd824c
+guid: ed22515501f73894b99aded15880c8ad
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MI_Human_Nose_01
-    second: {fileID: 2100000, guid: 7f19d2dc149a17545acdc2ff613c2601, type: 2}
+      name: M_Cliff
+    second: {fileID: 2100000, guid: 88b6acb17927e4243921d176f755ec6b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

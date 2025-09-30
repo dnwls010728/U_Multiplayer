@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/ClientScene.unity
     guid: 48d5935ff3f48254fb41f859e42b449c
   - enabled: 1
-    path: Assets/Scenes/WorldScene.unity
+    path: Assets/App/Scenes/WorldScene.unity
     guid: f6808da6fe83c5b4dae5a42fc5143f4b
   - enabled: 1
     path: Assets/Widgets/Scenes/WidgetsQuickstart.unity
     guid: f4d0a42535930384481b3cd51450f8b3
   - enabled: 1
-    path: Assets/Scenes/MainMenuScene.unity
+    path: Assets/App/Scenes/MainMenuScene.unity
     guid: 08900e388afcbe9479cec4b07aec98c7
   - enabled: 1
     path: Assets/NGO_Minimal_Setup/NGO_Setup.unity
