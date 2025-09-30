@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Sirenix.OdinInspector;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Relay;
@@ -12,10 +11,10 @@ public class SessionManager : Singleton<SessionManager>
     [SerializeField] private GameObject _playerPrefab;
     [SerializeField] private GameObject _gameStatePrefab;
     
-    [SerializeField, ReadOnly]
+    [SerializeField]
     private string _joinCode;
     
-    [field: SerializeField, ReadOnly]
+    [field: SerializeField]
     public WorldState WorldState { get; set; }
     
     public string JoinCode => _joinCode;
